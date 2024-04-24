@@ -8,7 +8,7 @@ function App() {
           <img
             src="../img/logo.jpg"
             alt=""
-            className="h-8 w-22 absolute bottom-0 left-0"
+            className="h-8 w-22 absolute md:bottom-0 top-0 md:top-auto left-0"
           />
           <h1 className="text-bold text-xl text-white">
             Competent Authority <br />
@@ -16,7 +16,10 @@ function App() {
           </h1>
 
           <p className="text-sm absolute font-semibold bottom-0 right-1 text-white">
-            brought to you by <span className="underline text-yellow-400">National Informatics Centre</span>
+            brought to you by{" "}
+            <span className="underline text-yellow-400">
+              National Informatics Centre
+            </span>
           </p>
         </nav>
 
@@ -46,7 +49,7 @@ function App() {
               Results will be declared on 24/04/2024 at 04:00 PM
             </p>
           </a>
-          <a className="cursor-pointer absolute right-1 bottom-14 text-orange-800  mt-4underline text-2xl font-bold">
+          <a className="cursor-pointer md:flex hidden absolute right-1 bottom-14 text-orange-800  mt-4underline text-2xl font-bold">
             Previous Result
           </a>
           <a className="cursor-pointer absolute bottom-0 text-orange-800 underline  mt-4underline text-2xl font-bold">
