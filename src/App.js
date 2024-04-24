@@ -27,7 +27,7 @@ function App() {
             -2024
           </h1>{" "}
           <br />
-          <a href="">
+          <a href="https://mpresults.nic.in/mpbse/hsc10_2023/X_class_23.htm">
             <h1 className=" text-orange-800  underline mt-4 text-2xl font-bold">
               HSC (Class 10th) Examination Results -2024
             </h1>
@@ -36,7 +36,7 @@ function App() {
               Results will be declared on 24/04/2024 at 04:00 PM
             </p>
           </a>
-          <a href="">
+          <a href="https://mpresults.nic.in/mpbse/HSSC12_23/HSSC_2023-XII.htm">
             {" "}
             <h1 className=" text-orange-800 underline mt-4 text-2xl font-bold">
               HSSC (Class 12th) Examination Results -2024
